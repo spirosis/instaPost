@@ -27,6 +27,7 @@ img{
   }
   
 #html5-logo {
+    margin-left: 15px;
     margin-right: 12px; /* Adjust as needed for spacing between elements */
     color:rgb(14, 14, 211);
 }
@@ -40,7 +41,8 @@ img{
   
   
 #meatballs {
-    margin-left: auto; /* Pushes the ellipsis menu to the right */
+    margin-left: auto;
+    margin-right: 15px; /* Pushes the ellipsis menu to the right */
 }
 
 i{
@@ -78,11 +80,17 @@ i{
 
 .post-icons{
     padding-top: 13px;
+    margin-left: 10px;
+    margin-right: 10px;
     display: flex;
     justify-content: space-between;
     color: rgb(101, 106, 128);
 }
 
+h3{
+    margin-left: 10px;
+    
+}
 
 
 
