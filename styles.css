@@ -1,11 +1,8 @@
 
 body {
     height: 100%;
-    background-color: aliceblue;
-    
+    background-color: aliceblue;  
 }
-
-
 
 html {
     height: 100%;
@@ -13,13 +10,13 @@ html {
     margin: auto;
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(10, 9, 9);
+   
 }
 
 img{
     height: 500px;
     width: 500px;
 }
-
 
 .post-header {
     display: flex;
@@ -50,14 +47,17 @@ i{
 }
 
 .text-container{
-    height: 15em;
+    height: 20em;
     position: relative 
 }
 
+.likes{
+    padding-right: 10px;
+    padding-left: 10px;
+}
 
 #caption{
     margin: 0;
-    background: rgb(244, 244, 243);
     position: absolute;
     top: 50%;
     left: 50%;
